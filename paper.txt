@@ -1,39 +1,24 @@
-Title: A template for scientific papers
-Authors: First Author{1}, Second Author{1,2}*
-Short Title: Paper Template
-Short Authors: Author et al.
-Affiliations: {1} My first affiliation, {2} Second author affiliation
-Correspondence: firstname.lastname@domain.country
-Keywords: scientific papers; biology journals; txt files; Org-Mode; $\LaTeX$
-Conflict of interest: All manuscripts must contain a statement regarding Competing interests. If there are no competing interests, a statement to this effect must be included. All authors should disclose any conflict of interest in accordance with journal policy.
-Acknowledgements: Acknowledgements should be the minimum consistent with courtesy. The wording of acknowledgements of scientific assistance or advice must have been seen and approved by the persons concerned. This section should not include details of funding. 
-Funding: Authors must indicate all sources of funding, including grant numbers. If authors have not received funding, this must be stated.
+Title: RSNA Intracranial Hemorrhage Detection: Identify acute intracranial hemorrhage and its subtypes
+Authors: Yann Zerlaut
+Short Title: RSNA Intracranial Hemorrhage Detection
+Short Authors: Y. Zerlaut
+Affiliations: {1} CNRS, France
+Correspondence: yann.zerlaut@cnrs.fr
 
 * Abstract
 
-Org-Mode is for keeping notes, maintaining TODO lists, planning
-projects, and authoring documents with a fast and effective plain-text
-system. Visit \url{http://orgmode.org/}. Here we build up a template
-for scientific papers with the following characteristics:Praesent
-blandit blandit mauris. Praesent lectus tellus, aliquet aliquam,
-luctus a, egestas a, turpis. Mauris lacinia lorem sit amet ipsum. Nunc
-quis urna dictum turpis accumsan semper. Sed interdum libero ut
-metus. Pellentesque placerat. Nam rutrum augue a leo. Morbi sed elit
-sit amet ante lobortis sollicitudin. Praesent blandit blandit
-mauris. Praesent lectus tellus, aliquet aliquam, luctus a, egestas a,
-turpis. Mauris lacinia lorem sit amet ipsum. Nunc quis urna dictum
-turpis accumsan semper. Praesent lectus tellus, aliquet aliquam,
-luctus a, egestas a, turpis. Mauris lacinia lorem sit amet ipsum. Nunc
-quis urna dictum turpis accumsan semper. Sed interdum libero ut
-metus. Pellentesque placerat. Nam rutrum augue a leo. Morbi sed elit
-sit amet ante lobortis sollicitudin. Praesent blandit blandit
-mauris. Praesent lectus tellus, aliquet aliquam, luctus a, egestas a,
-turpis. Mauris lacinia lorem sit amet ipsum. Nunc quis urna dictum
-turpis accumsan semper.Praesent lectus tellus, aliquet aliquam,
-luctus a, egestas a, turpis. Mauris lacinia lorem sit amet ipsum. Nunc
-quis urna dictum turpis accumsan semper. Sed interdum libero ut
-metus. Pellentesque placerat. Nam rutrum augue a leo. Morbi sed elit
-sit amet ante lobortis sollicitudin.
+Intracranial hemorrhage, bleeding that occurs inside the cranium, is a serious health problem requiring rapid and often intensive medical treatment. For example, intracranial hemorrhages account for approximately 10\% of strokes in the U.S., where stroke is the fifth-leading cause of death. Identifying the location and type of any hemorrhage present is a critical step in treating the patient.
+
+Diagnosis requires an urgent procedure. When a patient shows acute neurological symptoms such as severe headache or loss of consciousness, highly trained specialists review medical images of the patient’s cranium to look for the presence, location and type of hemorrhage. The process is complicated and often time consuming.
+
+In this competition, your challenge is to build an algorithm to detect acute intracranial hemorrhage and its subtypes.
+
+You’ll develop your solution using a rich image dataset provided by the Radiological Society of North America (RSNA) in collaboration with members of the American Society of Neuroradiology and MD.ai.
+
+If successful, you’ll help the medical community identify the presence, location and type of hemorrhage in order to quickly and effectively treat affected patients.
+
+Challenge participants may be invited to present their AI models and methodologies during an award ceremony at the RSNA Annual Meeting which will be held in Chicago, Illinois, USA, from December 1-6, 2019.
+
 
 * Significance
 
@@ -105,64 +90,11 @@ Lorem ipsum dolor sit amet, consectetuer adipisc- ing elit. Etiam lobortis facil
 
 * Methods
 
-*** First methodological section
+*** Collaborators
 
-\begin{equation}
-\label{eq:first}
-\tau \, \frac{dx}{dt} = E_L-v
-\end{equation}
+Four research institutions provided large volumes of de-identified CT studies that were assembled to create the challenge dataset: Stanford University, Thomas Jefferson University, Unity Health Toronto and Universidade Federal de São Paulo (UNIFESP), The American Society of Neuroradiology (ASNR) organized a cadre of more than 60 volunteers to label over 25,000 exams for the challenge dataset. ASNR is the world’s leading organization for the future of neuroradiology representing more than 5,300 radiologists, researchers, interventionalists, and imaging scientists. MD.ai provided tooling and support for the data annotation process.
 
-[[Table {Tab1} around here]]
-
-[[Table {Tab2} around here]]
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam
-lobortis facilisis sem. Nullam necmi et neque pharetra
-sollicitudin. Praesent im-perdiet mi nec ante. Donec ullamcorper,
-felis nonsodales commodo, lectus velit ultrices augue, a dig-nissim
-nibh lectus placerat pede. Vivamus nuncnunc, molestie ut, ultricies
-vel, semper in, velit.Ut porttitor. Praesent in sapien. Lorem
-ipsumdolor sit amet, consectetuer adipiscing elit. Duisfringilla
-tristique neque. Sed interdum libero utmetus. Pellentesque
-placerat. Nam rutrum auguea leo. Morbi sed elit sit amet ante lobortis
-sollici-tudin. Praesent blandit blandit mauris. Praesentlectus tellus,
-aliquet aliquam, luctus a, egestas a,turpis. Mauris lacinia lorem sit
-amet ipsum. Nuncquis urna dictum turpis accumsan semper.
-
-*** Second methodological section
-
-\begin{equation}
-\label{eq:second}
-\tau \, \frac{dx}{dt} = E_L-v + \xi (t)
-\end{equation}
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam
-lobortis facilisis sem. Nullam necmi et neque pharetra
-sollicitudin. Praesent im-perdiet mi nec ante. Donec ullamcorper,
-felis nonsodales commodo, lectus velit ultrices augue, a dig-nissim
-nibh lectus placerat pede. Vivamus nuncnunc, molestie ut, ultricies
-vel, semper in, velit.Ut porttitor. Praesent in sapien. Lorem
-ipsumdolor sit amet, consectetuer adipiscing elit. Duisfringilla
-tristique neque. Sed interdum libero utmetus. Pellentesque
-placerat. Nam rutrum auguea leo. Morbi sed elit sit amet ante lobortis
-sollici-tudin. Praesent blandit blandit mauris. Praesentlectus tellus,
-aliquet aliquam, luctus a, egestas a,turpis. Mauris lacinia lorem sit
-amet ipsum. Nuncquis urna dictum turpis accumsan semper.  Lorem ipsum
-dolor sit amet, consectetuer adipiscing elit. Etiam lobortis facilisis
-sem. Nullam necmi et neque pharetra sollicitudin. Praesent im-perdiet
-mi nec ante. Donec ullamcorper, felis nonsodales commodo, lectus velit
-ultrices augue, a dig-nissim nibh lectus placerat pede. Vivamus
-nuncnunc, molestie ut, ultricies vel, semper in, velit.Ut
-porttitor. Praesent in sapien. Lorem ipsumdolor sit amet, consectetuer
-adipiscing elit. Duisfringilla tristique neque. Sed interdum libero
-utmetus. Pellentesque placerat. Nam rutrum auguea leo. Morbi sed elit
-sit amet ante lobortis sollici-tudin. Praesent blandit blandit
-mauris. Praesentlectus tellus, aliquet aliquam, luctus a, egestas
-a,turpis. Mauris lacinia lorem sit amet ipsum. Nuncquis urna dictum
-turpis accumsan semper.
-
-
-playing with some reference here (Destexhe et al., 2003)
+The RSNA is an international society of radiologists, medical physicists and other medical professionals with more than 54,000 members from 146 countries across the globe. They see the potential for AI to assist in detection and classification of hemorrhages in order to prioritize and expedite their clinical work.
 
 * Figures
 
@@ -224,65 +156,6 @@ none & 0 & 0 & 0 & 0\\
 
 Lorem ipsum dolor sit amet, consectetuer adipisc- ing elit. Etiam lobortis facilisis sem. Nullam nec mi et neque pharetra sollicitudin. Praesent im- perdiet mi nec ante. Donec ullamcorper, felis non sodales commodo, lectus velit ultrices augue, a dig- nissim nibh lectus placerat pede. Vivamus nunc nunc, molestie ut, ultricies vel, semper in, velit.  Ut porttitor. Praesent in sapien. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis fringilla tristique neque. Sed interdum libero ut metus. Pellentesque placerat. Nam rutrum augue a leo. Morbi sed elit sit amet ante lobortis sollici- tudin. Praesent blandit blandit mauris. Praesent lectus tellus, aliquet aliquam, luctus a, egestas a, turpis. Mauris lacinia lorem sit amet ipsum. Nunc quis urna dictum turpis accumsan semper.Lorem ipsum dolor sit amet, consectetuer adipisc- ing elit. Etiam lobortis facilisis sem. Nullam nec mi et neque pharetra sollicitudin. (Telenczuk et al., 2017; Destexhe et al., 2003; Chance et al., 2002). Reference to to Table {Tab2} and Equation {eq1} and Figure {Fig1}.
 
-* Supplementary
-** Supplementary Text
-*** Section talking abour first supplementary result
-
-Lorem ipsum dolor sit amet, consectetuer adipisc-
-ing elit. Etiam lobortis facilisis sem. Nullam nec
-mi et neque pharetra sollicitudin. Praesent im-
-perdiet mi nec ante. Donec ullamcorper, felis non
-sodales commodo, lectus velit ultrices augue, a dig-
-nissim nibh lectus placerat pede. Vivamus nunc
-nunc, molestie ut, ultricies vel, semper in, velit.
-Ut porttitor. Praesent in sapien. Lorem ipsum
-dolor sit amet, consectetuer adipiscing elit. Duis
-fringilla tristique neque. Sed interdum libero ut
-metus. Pellentesque placerat. Nam rutrum augue
-a leo. Morbi sed elit sit amet ante lobortis sollici-
-tudin. Praesent blandit blandit mauris. Praesent
-lectus tellus, aliquet aliquam, luctus a, egestas a,
-turpis. Mauris lacinia lorem sit amet ipsum. Nunc
-quis urna dictum turpis accumsan semper.
-
-\begin{equation}
-\left\{
-\begin{split}
-& \frac{\partial^2 d}{\partial t ^2} = -x^3 \\
-& \sum_{x} 1/x^2 \rightarrow y
-\end{split}
-\right.
-\end{equation}
-
-** Supplementary Figures
-
-*** Caption for first supplementary figure.
-#+options : {'label':'Fig1', 'extent':'singlecolumn', 'file':'/Users/yzerlaut/work/graphs/fig2.png'}
-(a) Generate the figure with : \url{python_code/script.py} Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam lobortis facilisis sem. (b) Nullam necmi et neque pharetra sollicitudin. Praesent im-perdiet mi nec ante. Donec ullamcorper, felis nonsodales commodo, lectus velit ultrices augue, a dig-nissim nibh lectus placerat pede. Vivamus nuncnunc, molestie ut, ultricies vel, semper in, velit.Ut porttitor. Praesent in sapien. (c) Lorem ipsumdolor sit amet, consectetuer adipiscing elit. Duisfringilla tristique neque. Sed interdum libero utmetus. Pellentesque placerat. Nam rutrum auguea leo. Morbi sed elit sit amet ante lobortis sollici-tudin. Praesent blandit blandit mauris. Praesentlectus tellus, aliquet aliquam, luctus a, egestas a,turpis. Mauris lacinia lorem sit amet ipsum. Nuncquis urna dictum turpis accumsan semper.
-
-** Supplementary Tables
-
-*** Caption for the first supplementary table
-#+options : {'label':'sTab1', 'extent':'singlecolumn'}
-\begin{tabular}{lrr}
-Name & Phone & Age\\
-\hline
-Peter & \{blabla\} & 17\\
-Anna & 4321 & 25\\
-Patrick & 4321 & 25\\
-\end{tabular}
-
-# | Name    |    Phone | Age |
-# |---------+----------+-----|
-# | Peter   | {blabla} |  17 |
-# | Anna    |     4321 |  25 |
-# | Patrick |     4321 |  25 |
-
-* Key Points
-
-\item writing scientific papers 
-\item using meta-anaysis file for paper results
-\item different styles of paper formatting
 * Notes /not exported/
 
 ** Constructing tables
